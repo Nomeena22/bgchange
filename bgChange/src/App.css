@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  width: 94vw;
+  height: 90vh;
+  display: flex;
+  position: relative;
+  justify-content: center;
+
+}
+h3 {
+  justify-items: center;
+  align-self: center;
+
+  border: 1px solid rgb(73, 65, 65);
+}
+.row {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  position: absolute;
+  margin-top: 36%;
+  margin-bottom: 0;
+
+}
+button{
+  outline: none;
+  padding: 2px;
+  border-radius: 5px;
+  color: white;
+  width: 100px;
+  height: 60px;
+  margin: 2px;
+  
+
+}
+
